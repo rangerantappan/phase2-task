@@ -1,0 +1,56 @@
+# Cloud Quest
+
+##Objective:
+Solve the first 3 levels of Cloud Quest.
+
+##Level 1: Beach Task
+1. Sign in using our AWS ID
+2. Next we will get a assignment regarding Beach task
+3. Then they will give us the instructions regarding the task
+4. Now they will instruct us to open a AWS console in which are task will be virtually executed
+5. Search website bucket from the console and open its contents
+6. Now we will be able to see the file names and its types
+7. Rename textfile into error.html
+8. Now go to the permission tab and ensure whether the block public access is disabled
+9. Now go to the properties tab then choose static web hosting make sure that it is enabled.
+10. Copy the website link
+11. Now go to the DIY section and validate this link
+
+
+##Level 2: Amazon Elastic Compute cloud (EC2)
+1. Firstly we have to download the user data that is provided by the website
+2. Now we have to open the virtual lab
+3. Now search EC2 in the AWS console search bar and launch its instance
+4. Now put a name for the server.
+5. Choose Amazon Linux 2 AMI (HVM)
+6. In the network settings click edit and for VPC choose LabVpc
+7. Choose the subnet
+8. For Security group name, type: 
+   Security-Group-Lab
+    For Description, type: 
+    HTTP Security Group
+    For Type, choose HTTP
+9. Click gp2
+10. Click on advance details and choose the user data and review it.
+11. Repeat this same process for creating an another server named server02
+12. Now copy the links of both the servers01 and server02
+13. Now DIY section and copy paste both the links and validate.
+
+
+##Level 3: 
+1. AWS console and search EC2
+2. Now go to the instance bar and select AWS computing from the instance.
+3. Now go the instance type and search for the files and select it
+4. Now if we copy paste the instance ID in a new browser window we will get the amazon Ec2 status running window.
+5. Now choose the connect button and it will redirect us into a new page
+6. review all the infos and press the connect button in the EC2 instance connect
+7. Now it will load up an another screen
+8. Now by using Ls command we will get sample_app is already present.
+9. Now from the instances go to the actions and instance setiings and choose edit user data
+10. Choose edit user data and click cancel option.
+11. Then we will stop the instance.
+12. By stoping the instance we will not be able see the public IPV4 address
+13. Now again take the instance state and choose start instance
+14. Now take the change instance type and change it into m4.large.
+15. Now again restart the instance state.
+16. Now copy the instance ID and copy paste it into the validation form that is there in the DIY section.
